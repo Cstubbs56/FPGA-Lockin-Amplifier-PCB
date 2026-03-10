@@ -1913,16 +1913,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 101.6) (xy 194.31 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "becfceb6-3420-4fe7-9aac-f137a3f257dc")
-	)
-	(wire
-		(pts
 			(xy 49.53 113.03) (xy 45.72 113.03)
 		)
 		(stroke
@@ -2033,7 +2023,7 @@
 		)
 		(uuid "5a4789d6-00cd-4cd6-bd45-b1b942db479b")
 	)
-	(hierarchical_label "SS1_mem"
+	(hierarchical_label "~{SS1_mem}"
 		(shape input)
 		(at 166.37 77.47 180)
 		(effects
@@ -2742,7 +2732,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 101.6 0)
+		(at 195.58 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2751,7 +2741,7 @@
 		(fields_autoplaced yes)
 		(uuid "5be041de-e614-4cf9-85c5-2496cf886e79")
 		(property "Reference" "#PWR077"
-			(at 194.31 107.95 0)
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 106.68 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 101.6 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 101.6 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 101.6 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2880,7 @@
 				)
 			)
 		)
-		(property "Value" "27pF"
+		(property "Value" "10pF"
 			(at 38.1 50.8 90)
 			(effects
 				(font
@@ -2958,7 +2948,7 @@
 				)
 			)
 		)
-		(property "Value" "27pF"
+		(property "Value" "10pF"
 			(at 38.1 63.5 90)
 			(effects
 				(font
@@ -3027,7 +3017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "ABM8G"
 			(at 55.88 63.4999 90)
 			(effects
 				(font
@@ -3045,7 +3035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/Resonators/ABM8G.pdf"
 			(at 60.96 62.23 0)
 			(effects
 				(font

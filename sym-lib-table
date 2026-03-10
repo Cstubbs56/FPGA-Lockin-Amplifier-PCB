@@ -5,4 +5,5 @@
   (lib (name "can")(type "KiCad")(uri "${KIPRJMOD}/MCP2562_E_SN/MCP2562-E_SN.kicad_sym")(options "")(descr ""))
   (lib (name "canhw")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints/canhw.kicad_sym")(options "")(descr ""))
   (lib (name "screw_term")(type "KiCad")(uri "${KIPRJMOD}/691137710002/691137710002.kicad_sym")(options "")(descr ""))
+  (lib (name "ind")(type "KiCad")(uri "${KIPRJMOD}/CC453232_120KL/KiCADv6/2026-03-10_15-49-24.kicad_sym")(options "")(descr ""))
 )

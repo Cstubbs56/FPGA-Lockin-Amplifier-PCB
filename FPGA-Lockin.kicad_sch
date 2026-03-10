@@ -5096,8 +5096,8 @@
 		(uuid "464e5245-8356-430a-b3f7-f595d20b93be")
 	)
 	(no_connect
-		(at 115.57 77.47)
-		(uuid "48fb6688-3429-45e5-85eb-884c7008d42e")
+		(at 190.5 157.48)
+		(uuid "67896978-1ef7-48dc-8a23-8d2aea604be9")
 	)
 	(no_connect
 		(at 190.5 143.51)
@@ -5156,6 +5156,10 @@
 		(uuid "b2d404b5-4b3b-47ad-8698-eda317750296")
 	)
 	(no_connect
+		(at 218.44 143.51)
+		(uuid "bc2b1fcb-f2bf-4cc1-ad15-bb7da8272df4")
+	)
+	(no_connect
 		(at 156.21 62.23)
 		(uuid "bd7563d7-d9aa-40f7-96ea-234e312d397d")
 	)
@@ -5194,6 +5198,16 @@
 	(no_connect
 		(at 156.21 105.41)
 		(uuid "ff69a831-25e4-479b-8ce9-1fcc22d60e3b")
+	)
+	(wire
+		(pts
+			(xy 36.83 52.07) (xy 44.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023b0bf2-0850-4d40-a1f9-036c3ecdfd5a")
 	)
 	(wire
 		(pts
@@ -5347,7 +5361,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 64.77) (xy 46.99 52.07)
+			(xy 46.99 64.77) (xy 46.99 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5917,7 +5931,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 52.07) (xy 36.83 52.07)
+			(xy 46.99 54.61) (xy 36.83 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6154,6 +6168,16 @@
 			(type default)
 		)
 		(uuid "9d2b8a21-08f9-41fb-aaa0-9d1e0188a6d7")
+	)
+	(wire
+		(pts
+			(xy 109.22 77.47) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d72bf75-8c3a-4b78-ac08-6d9ca3a05935")
 	)
 	(wire
 		(pts
@@ -6795,7 +6819,7 @@
 		)
 		(uuid "217e917b-aa1f-4e1f-8c25-bac88a01d855")
 	)
-	(label "SS1_mem"
+	(label "~{SS1_mem}"
 		(at 43.18 99.06 0)
 		(effects
 			(font
@@ -6825,7 +6849,7 @@
 		)
 		(uuid "35bdb166-a169-480e-8e86-87850f5894a5")
 	)
-	(label "SS1_an"
+	(label "~{SS1_an}"
 		(at 44.45 48.26 0)
 		(effects
 			(font
@@ -6885,7 +6909,7 @@
 		)
 		(uuid "5297bf0a-20e0-4710-bc70-b8e909253f16")
 	)
-	(label "SS0_mem"
+	(label "~{SS0_mem}"
 		(at 162.56 107.95 0)
 		(effects
 			(font
@@ -6905,7 +6929,17 @@
 		)
 		(uuid "557ab667-dc69-4a75-804e-5c45dd1dcdda")
 	)
-	(label "SS0_an"
+	(label "DAC_RST"
+		(at 109.22 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b07445e-5a2a-4df7-86e9-d10cf2d33503")
+	)
+	(label "~{SS0_an}"
 		(at 44.45 45.72 0)
 		(effects
 			(font
@@ -6915,7 +6949,7 @@
 		)
 		(uuid "5bc77638-8b3d-427d-b586-f2b07487dc0d")
 	)
-	(label "SS1_an"
+	(label "~{SS1_an}"
 		(at 242.57 76.2 180)
 		(effects
 			(font
@@ -6954,6 +6988,16 @@
 			(justify right bottom)
 		)
 		(uuid "660de3bf-ec12-4dc8-969a-87b89a17b1b3")
+	)
+	(label "DAC_RST"
+		(at 44.45 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e36a2ac-fed3-4f73-908d-635df18c9b98")
 	)
 	(label "MISO_mem"
 		(at 109.22 72.39 180)
@@ -7075,7 +7119,7 @@
 		)
 		(uuid "a2443ead-d206-4b05-a0a9-a4923ee05931")
 	)
-	(label "SS0_mem"
+	(label "~{SS0_mem}"
 		(at 242.57 62.23 180)
 		(effects
 			(font
@@ -7135,7 +7179,7 @@
 		)
 		(uuid "baeb486b-585d-43b5-8eeb-ac37c3750c74")
 	)
-	(label "SS1_mem"
+	(label "~{SS1_mem}"
 		(at 162.56 110.49 0)
 		(effects
 			(font
@@ -7155,7 +7199,7 @@
 		)
 		(uuid "c6d09070-0298-42cd-9854-98a15791c5b0")
 	)
-	(label "SS0_an"
+	(label "~{SS0_an}"
 		(at 242.57 73.66 180)
 		(effects
 			(font
@@ -7737,7 +7781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 207.01 71.12 0)
 			(effects
 				(font
@@ -8829,7 +8873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 181.61 71.12 0)
 			(effects
 				(font
@@ -9915,7 +9959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 194.31 71.12 0)
 			(effects
 				(font
@@ -10229,138 +10273,6 @@
 			(project "FPGA-Lockin"
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 218.44 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfa61786-6b01-4050-bb7d-fdcd40de50c0")
-		(property "Reference" "#PWR093"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 218.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 218.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2aada809-31af-4547-be61-057e3a736ac6")
-		)
-		(instances
-			(project ""
-				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e84ca1ae-24c9-4c6d-9c92-115687b75674")
-		(property "Reference" "#PWR092"
-			(at 190.5 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a2e6a1c-7103-4119-9690-95e1be012ad2")
-		)
-		(instances
-			(project ""
-				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -10951,7 +10863,7 @@
 	)
 	(sheet
 		(at 24.13 31.75)
-		(size 12.7 21.59)
+		(size 12.7 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10975,7 +10887,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 24.13 53.9246 0)
+			(at 24.13 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,18 +10924,8 @@
 			)
 		)
 		(pin "PZT_V" output
-			(at 36.83 52.07 0)
+			(at 36.83 54.61 0)
 			(uuid "4a4ee055-7464-4764-841a-8b4a7cb77c7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SS1_an" input
-			(at 36.83 48.26 0)
-			(uuid "1b3b45ed-71ab-40bf-a08a-64dc1e184272")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,9 +10953,9 @@
 				(justify right)
 			)
 		)
-		(pin "SS0_an" input
-			(at 36.83 45.72 0)
-			(uuid "90a4da77-1287-4336-8e26-55f6db1299b9")
+		(pin "MCLKIN" input
+			(at 36.83 33.02 0)
+			(uuid "36083968-3efe-486b-bf9f-60f8e403d490")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,9 +10963,29 @@
 				(justify right)
 			)
 		)
-		(pin "MCLKIN" input
-			(at 36.83 33.02 0)
-			(uuid "36083968-3efe-486b-bf9f-60f8e403d490")
+		(pin "~{SS1_an}" input
+			(at 36.83 48.26 0)
+			(uuid "4fcf1f7e-3d6c-452a-b454-14119ff002ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SS0_an}" input
+			(at 36.83 45.72 0)
+			(uuid "28649245-5de8-4095-87b3-585fcdb19265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_RST" input
+			(at 36.83 52.07 0)
+			(uuid "4faa41ce-bf69-420c-8d04-5122abcff0c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,16 +11043,6 @@
 				)
 			)
 		)
-		(pin "SS_mem" output
-			(at 252.73 62.23 180)
-			(uuid "6819a610-ee76-487e-b3e9-15d594c566d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MOSI_mem" output
 			(at 252.73 57.15 180)
 			(uuid "286636f5-9843-4eb5-874a-1294126d9996")
@@ -11181,26 +11093,6 @@
 				(justify left)
 			)
 		)
-		(pin "SS1_an" output
-			(at 252.73 76.2 180)
-			(uuid "27b8396a-7d2a-4202-8cd0-7452b3aeebf8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SS0_an" output
-			(at 252.73 73.66 180)
-			(uuid "e7b0540d-062b-4c87-b298-9456490b502d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MISO_an" input
 			(at 252.73 66.04 180)
 			(uuid "cbee21f7-92d2-4bdd-9c32-99685002a805")
@@ -11224,6 +11116,36 @@
 		(pin "SCLK_an" output
 			(at 252.73 71.12 180)
 			(uuid "fac8082d-fcfa-4f34-a6d1-86cbd7ba6d3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SS_mem}" output
+			(at 252.73 62.23 180)
+			(uuid "8d3d904f-9697-4d0c-8eca-52e34675f2bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SS0_an}" output
+			(at 252.73 73.66 180)
+			(uuid "d5ddd408-aeb3-4e7d-b741-3bf75b5bfb21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SS1_an}" output
+			(at 252.73 76.2 180)
+			(uuid "2b3e4086-397e-4289-9586-bbfa86a787d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,16 +11243,6 @@
 				(justify right)
 			)
 		)
-		(pin "SS1_mem" input
-			(at 36.83 99.06 0)
-			(uuid "ef02dd99-8159-4941-9c50-6403c5bf28a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SCLK_mem" input
 			(at 36.83 96.52 0)
 			(uuid "abefb406-ccd1-4720-9fcc-e12937e37be5")
@@ -11374,6 +11286,16 @@
 		(pin "OSC1" bidirectional
 			(at 36.83 102.87 0)
 			(uuid "7f4b8555-6275-4e1f-894b-f72cdbe83b99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SS1_mem}" input
+			(at 36.83 99.06 0)
+			(uuid "f4e2f9bc-2663-4679-90ea-8dc1903146b7")
 			(effects
 				(font
 					(size 1.27 1.27)

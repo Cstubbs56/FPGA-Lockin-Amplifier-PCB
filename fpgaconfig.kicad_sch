@@ -3510,7 +3510,7 @@
 		)
 		(uuid "6d7b53d5-c9cd-4af0-a271-7deec4a25947")
 	)
-	(hierarchical_label "SS_mem"
+	(hierarchical_label "~{SS_mem}"
 		(shape output)
 		(at 35.56 77.47 180)
 		(effects
@@ -3521,7 +3521,7 @@
 		)
 		(uuid "7027e34c-c74a-4abe-b699-d5c618ed78cb")
 	)
-	(hierarchical_label "SS0_an"
+	(hierarchical_label "~{SS0_an}"
 		(shape output)
 		(at 90.17 67.31 180)
 		(effects
@@ -3565,7 +3565,7 @@
 		)
 		(uuid "b83d3cad-adc5-4270-a36c-2238baffc16b")
 	)
-	(hierarchical_label "SS1_an"
+	(hierarchical_label "~{SS1_an}"
 		(shape output)
 		(at 90.17 69.85 180)
 		(effects
