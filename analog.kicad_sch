@@ -1860,6 +1860,267 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "fer:BLM18PG121SN1D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at -12.7044 5.0815 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BLM18PG121SN1D"
+				(at -12.71 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BLM18PG121SN1D:BEADC1608X95N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BLM18PG121SN1D_0_0"
+				(arc
+					(start -12.7 0)
+					(mid -11.43 1.2645)
+					(end -10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -10.16 0)
+					(mid -8.89 1.2645)
+					(end -7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 0)
+					(mid -6.35 1.2645)
+					(end -5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.715 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 1.905) (xy 6.985 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.905) (xy 8.255 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 1.905) (xy 9.525 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.905) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -3594,6 +3855,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 168.91) (xy 166.37 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994b5a1b-0dd6-42f2-a32d-e6d2e7d45fae")
+	)
+	(wire
+		(pts
 			(xy 52.07 74.93) (xy 63.5 74.93)
 		)
 		(stroke
@@ -3601,6 +3872,16 @@
 			(type default)
 		)
 		(uuid "9c284401-a042-431a-9225-fcbbe5e05b8b")
+	)
+	(wire
+		(pts
+			(xy 168.91 173.99) (xy 168.91 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa1ba11-dbc6-4549-b45a-0e73de273bac")
 	)
 	(wire
 		(pts
@@ -3894,6 +4175,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 173.99) (xy 135.89 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdc66e2-283f-4924-92e8-d00fcb9963eb")
+	)
+	(wire
+		(pts
 			(xy 165.1 118.11) (xy 168.91 118.11)
 		)
 		(stroke
@@ -4114,6 +4405,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 168.91) (xy 138.43 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe076da7-2477-49a9-976b-edf1f4ac0ed2")
+	)
+	(wire
+		(pts
 			(xy 243.84 48.26) (xy 251.46 48.26)
 		)
 		(stroke
@@ -4265,6 +4566,78 @@
 		(uuid "eedd6c4a-f5c8-41ab-a3ab-cf768de66da9")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02d7ab07-0726-4ad6-a746-33a66f437c9a")
+		(property "Reference" "#PWR0102"
+			(at 135.89 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee1c681-c414-4376-bf03-346ade520251")
+		)
+		(instances
+			(project "FPGA-Lockin"
+				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA310xDBV")
 		(at 71.12 77.47 0)
 		(unit 1)
@@ -4340,6 +4713,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4403,6 +4782,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -4476,6 +4861,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4542,6 +4933,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4633,6 +5030,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4696,6 +5099,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -4768,6 +5177,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4831,6 +5246,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -4899,6 +5320,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4972,6 +5399,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5034,6 +5467,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -5100,6 +5539,84 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 168.91 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1faa24c6-716b-4d2f-8214-f58ff4fe03a4")
+		(property "Reference" "#PWR0101"
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 168.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 168.91 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dece219-dedc-4817-b9f5-78c291f02b43")
+		)
+		(instances
+			(project "FPGA-Lockin"
+				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5176,6 +5693,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5238,6 +5761,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -5309,6 +5838,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5372,6 +5907,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -5443,6 +5984,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5506,6 +6053,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -5575,6 +6128,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5638,6 +6197,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -5710,6 +6275,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5772,6 +6343,12 @@
 			(project "FPGA-Lockin"
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5843,6 +6420,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5906,6 +6489,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -5977,6 +6566,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6040,6 +6635,12 @@
 			(project "FPGA-Lockin"
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6109,6 +6710,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6172,6 +6779,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -6240,6 +6853,12 @@
 			(project "FPGA-Lockin"
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6313,6 +6932,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6376,6 +7001,12 @@
 			(project "FPGA-Lockin"
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -6447,6 +7078,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6515,6 +7152,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6578,6 +7221,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -6693,6 +7342,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6763,6 +7418,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6826,6 +7487,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6895,6 +7562,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6961,6 +7634,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7024,6 +7703,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -7105,6 +7790,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7171,6 +7862,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7234,6 +7931,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -7361,6 +8064,12 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7426,6 +8135,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7497,6 +8212,87 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fer:BLM18PG121SN1D")
+		(at 153.67 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d523e429-9f59-4456-922f-58c9ebe561c2")
+		(property "Reference" "FL1"
+			(at 152.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM18PG121SN1D"
+			(at 152.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fer:BEADC1608X95N"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f112c29-fa24-405f-bdac-e6ae91fa64cc")
+		)
+		(pin "1"
+			(uuid "e16224e0-a353-4785-aaff-f7e58bc4bc0c")
+		)
+		(instances
+			(project "FPGA-Lockin"
+				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7562,6 +8358,12 @@
 			(project ""
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20/b4e54c7f-c710-4389-9136-84da8df1ff12"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7631,6 +8433,18 @@
 					(unit 1)
 				)
 			)
+			(project "analog"
+				(path "/ad6edbd1-2c3b-4001-bd51-538a3943b1e4"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

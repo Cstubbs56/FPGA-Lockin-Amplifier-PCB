@@ -7,4 +7,6 @@
   (lib (name "Laserwarn")(type "KiCad")(uri "${KIPRJMOD}/Laserwarn.pretty")(options "")(descr ""))
   (lib (name "screw_term")(type "KiCad")(uri "${KIPRJMOD}/691137710002")(options "")(descr ""))
   (lib (name "ind")(type "KiCad")(uri "${KIPRJMOD}/CC453232_120KL/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "fer")(type "KiCad")(uri "${KIPRJMOD}/BLM18PG121SN1D")(options "")(descr ""))
+  (lib (name "dio")(type "KiCad")(uri "${KIPRJMOD}/RB160MM_60TR/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

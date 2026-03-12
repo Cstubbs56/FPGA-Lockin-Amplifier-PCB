@@ -168,6 +168,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -4998,6 +5105,12 @@
 		(uuid "731bd0e2-287f-43e3-8a23-ec5e2f478fd1")
 	)
 	(junction
+		(at 179.07 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b368d1-048c-4aa6-a83f-0a1067ff4df0")
+	)
+	(junction
 		(at 66.04 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5611,6 +5724,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 106.68) (xy 179.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40084327-02a0-4d0a-9698-077fd89f9c53")
+	)
+	(wire
+		(pts
 			(xy 156.21 72.39) (xy 162.56 72.39)
 		)
 		(stroke
@@ -5718,6 +5841,16 @@
 			(type default)
 		)
 		(uuid "4f64dfd2-51de-4d89-9c5e-2691a5c2d234")
+	)
+	(wire
+		(pts
+			(xy 179.07 110.49) (xy 187.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcad1f1-cf7d-4f86-8070-95076bcf64d9")
 	)
 	(wire
 		(pts
@@ -6581,7 +6714,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 110.49) (xy 162.56 110.49)
+			(xy 156.21 110.49) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7180,7 +7313,7 @@
 		(uuid "baeb486b-585d-43b5-8eeb-ac37c3750c74")
 	)
 	(label "~{SS1_mem}"
-		(at 162.56 110.49 0)
+		(at 187.96 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7748,6 +7881,73 @@
 			(project "FPGA-Lockin"
 				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aad8ba6-8b21-4476-98f8-f8290de0cbe9")
+		(property "Reference" "TPS1_m1"
+			(at 181.61 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS1_mem"
+			(at 181.61 104.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cefc1bb-ecb5-48de-be77-5e1614576f2f")
+		)
+		(instances
+			(project ""
+				(path "/0d4da0fe-f3e4-47fc-a7f7-d58161fd7b20"
+					(reference "TPS1_m1")
 					(unit 1)
 				)
 			)
