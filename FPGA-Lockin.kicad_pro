@@ -60,6 +60,22 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|144550000|74912500|fcd3a493-6c08-4154-8de4-fdee6c22d153|6edb063f-523a-4e5a-90de-0a6994624e0b",
+          ""
+        ],
+        [
+          "clearance|144550000|75412500|00057592-6737-44c7-bc6a-18d3c3bdb2cc|fcd3a493-6c08-4154-8de4-fdee6c22d153",
+          ""
+        ],
+        [
+          "clearance|145975000|74587500|643bdc5e-0a33-406b-be0d-5dffddf28028|9c48f1b8-c18c-44b3-b340-c5ae6f142c09",
+          ""
+        ],
+        [
+          "clearance|145975000|75087500|9c48f1b8-c18c-44b3-b340-c5ae6f142c09|97a91530-aa8e-4819-bc49-b1aed53e45b0",
+          ""
+        ],
+        [
           "clearance|152025000|67587500|035bc7d2-ab88-423f-841f-f998896657f2|e344190b-5287-43db-9734-21f6c55329b0",
           ""
         ],
@@ -562,7 +578,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -658,6 +674,18 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
           "show": false
         }
       ],

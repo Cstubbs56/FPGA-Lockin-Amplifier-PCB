@@ -9,4 +9,5 @@
   (lib (name "ind")(type "KiCad")(uri "${KIPRJMOD}/CC453232_120KL/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "fer")(type "KiCad")(uri "${KIPRJMOD}/BLM18PG121SN1D")(options "")(descr ""))
   (lib (name "dio")(type "KiCad")(uri "${KIPRJMOD}/RB160MM_60TR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/AP22802AW5_7/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
